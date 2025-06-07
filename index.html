@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="about">
+        <h2>About Me</h2>
+        <p>Hi! I am  Divya, a passionate developer from Bihar. I love building websites, dancing, and exploring new
+            things.</p>
+    </div>
+
+    <div id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+        </ul>
+    </div>
+
+    <div id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A simple Tic-Tac-Toe Game.</p>
+            <a href="tictactoe game/index.html" target="_blank">Play Tic Tac Toe Game</a>
+        </div>
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="email" id="email" placeholder="Your Email" required />
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+         <div id="resume">
+        <h2>My Resume</h2>
+        <p>You can download my resume below:</p>
+        <a href="resume.pdf" download target="_blank">
+            <button>Download Resume</button>
+        </a>
+    </div>
+
+        <footer>
+            <p>&copy; 2025 My Portfolio</p>
+        </footer>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
